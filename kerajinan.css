@@ -1,0 +1,224 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Monserrat', sans-serif;
+    background-image: url(background_web.jpg);
+}
+
+.container{
+    background-color: #E6E6FA;
+    margin: 80px auto 0 auto;
+    width: 1080px;
+    box-shadow: rgba(222, 222, 236, 0.5) 0px 7px 29px 0px;
+    position: relative;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0 5%;
+    height: 80px;
+    background-color: #191970;
+}
+
+nav .title{
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-family: 'Monserrat', sans-serif;
+}
+
+nav .links{
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .links li{
+    list-style: none;
+}
+
+.links {
+    display: block;
+    padding: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.a{
+    display: block;
+    padding: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    opacity: 0.6;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.a:hover{
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.pilih{
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.hero{
+    width: 100%;
+    height: 450px;
+    color: chocolate;
+    background-image: url(topeng\ gif.gif);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 5px solid #ADD8E6;
+    border-top: 5px solid #ADD8E6;
+}
+.container .main-content{
+    padding: 20px;
+    padding-top: 5px;
+    width: 63%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.container .main-content .tgl-judul{
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+.container .main-content .tgl-judul a{
+    color: #191970;
+    text-decoration: none;
+}
+
+.main-content{
+    padding: 20px;
+    padding-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-content img{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.main-content p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Monserrat', sans-serif;
+}
+h2, h3, h4{
+    font-family: 'Monserrat', sans-serif;
+}
+.container .sidebar{
+    width: 35%;
+    padding: 15px;
+    float: right;
+    box-sizing: border-box;
+}
+.container .sidebar #foto-profil{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 10px;
+}
+
+.container .sidebar p{
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.sidebar hr{
+    height: 3px;
+    border-width: 0;
+    color: sandybrown;
+    background-color: sandybrown;
+}
+
+.sidebar #side-gambar{
+    box-sizing: border-box;
+    margin-bottom: -15px;
+    width: 100%;
+    max-width: 330px;
+    height: 200px;
+}
+
+.sidebar #tgl-artikel{
+    font-size: 12px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+.sidebar #tgl-artikel a{
+    color: #191970;
+    text-decoration: none;
+}
+
+.sidebar #link-artikel{
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+.footer{
+    background-color: #191970;
+    padding: 1px;
+    text-align: center;
+    color: white;
+}
+
+.footer p{
+    font-size: 11px;
+    font-style: italic;
+}
+
+.footer a{
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+}
+
+.cf:before, .cf:after{
+    content: "";
+    display: table;
+}
+
+.cf:after{
+    clear: both;
+}
+
+.cf{
+    *zoom: 1;
+}
+
